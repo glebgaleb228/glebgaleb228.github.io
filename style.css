@@ -1,0 +1,178 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(orange, yellow,red,blueviolet);
+}
+
+header {
+    background-color: lightcoral;
+    border-radius: 10px;
+    border: 3px dashed red;
+}
+
+header h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    border: 3px solid lightblue;
+    border-radius: 25px;
+    color: blue;
+    margin: 10px;
+}
+
+.catalog {
+    text-align: center;
+    color: white;
+}
+
+.Nike_counteiner {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.Nike_Air_Barrage_Mid {
+    position: relative;
+    left: 0px;
+    top: 20px;
+}
+
+article img {
+    height: 300px;
+    width: 300px;
+}
+
+
+
+.Nike_Air_Jordan {
+    position: relative;
+    right: 0px;
+    top: 20px;
+}
+
+div article {
+    border: 10px double black;
+}
+
+.Puma_Ralfh {
+    position: relative;
+    left: 0px;
+}
+
+.Nike {
+    text-align: center;
+    color: white;
+}
+
+.Puma_counteiner {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.balls {
+    text-align: center;
+    color: white;
+}
+
+.soccer_balls_counteiner {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.bascketball_ball_counteiner {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.soccer_ball {
+    text-align: center;
+    color: white;
+}
+
+.bascketball_ball {
+    text-align: center;
+    color: white;
+}
+
+.tovar {
+    text-align: center;
+    color: white;
+}
+
+.tovar_text {
+    color: white;
+    text-align: center;
+}
+
+.tovar:hover::before {
+    content: url(https://cdn-0.emojis.wiki/emoji-pics/twitter/exclamation-mark-twitter.png);
+    width: 20px;
+    height: 20px;
+}
+
+.tovar:hover::after {
+    content: url(https://cdn-0.emojis.wiki/emoji-pics/twitter/exclamation-mark-twitter.png);
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    background-image: linear-gradient(rgb(207, 154, 163) blueviolet);
+    border: 3px dashed pink;
+    color: white;
+    border-radius: 20px;
+}
+.img_insta {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.img_tiktok {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.img_telega {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.img_viber {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.img_whatsapp{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.img_facebook {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.otsivi {
+    border-top: 3px dashed pink;
+    color: white;
+}
+
+.support_us {
+    text-align: center;
+}
